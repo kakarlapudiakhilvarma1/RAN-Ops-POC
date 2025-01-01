@@ -262,7 +262,7 @@ def main():
         return
 
     # Streamlit page configuration
-    st.set_page_config(page_title="NOC Assist RAG Chatbot", page_icon="🔍")
+    #st.set_page_config(page_title="NOC Assist RAG Chatbot", page_icon="🔍")
     st.title("RAN Ops Assist 🔍📡")
     st.info('Always follow Quality Points', icon="ℹ️")
 
