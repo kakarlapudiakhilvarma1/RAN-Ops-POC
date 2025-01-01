@@ -183,7 +183,7 @@ def is_history_related_question(question: str) -> bool:
 def setup_rag_components():
     """Initialize and cache RAG components."""
     embedding = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-    path = os.getenv('PDF_PATH')
+    path = "pdf files"
     loader = PyPDFDirectoryLoader(path)
     extracted_docs = loader.load()
     splits = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
