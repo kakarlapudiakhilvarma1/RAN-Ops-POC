@@ -256,7 +256,7 @@ def main():
     """Main application logic."""
     # Check for API key
     #google_api_key = os.getenv('GEMINI_API_KEY')
-    google_api_key = st.text_input("Enter Gemini API KEY")
+    google_api_key = st.text_input("Enter Gemini API KEY", type="password")
     if not google_api_key:
         st.info("Please add your Google AI API key to continue.", icon="🗝️")
         return
