@@ -1,7 +1,6 @@
 langchain-google-genai
 python-dotenv
 langchain
-ipykernel
 streamlit
 langchain-community
 langchain-core
@@ -11,4 +10,4 @@ langchain-huggingface
 langchain-groq
 uuid
 langsmith
-chainlit
+
