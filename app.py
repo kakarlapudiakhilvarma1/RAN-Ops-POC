@@ -273,7 +273,7 @@ def main():
         # Configure Gemini
         genai.configure(api_key=google_api_key)
         llm = ChatGoogleGenerativeAI(
-            model="gemini-pro",
+            model="gemini-1.5-flash",
             google_api_key=google_api_key,
             convert_system_message_to_human=True
         )
