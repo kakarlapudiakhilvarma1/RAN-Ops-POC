@@ -8,3 +8,7 @@ langchain-huggingface
 faiss-cpu
 uuid
 pypdf
+
+#Eval
+ragas
+matplotlib
