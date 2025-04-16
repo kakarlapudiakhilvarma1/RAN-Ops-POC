@@ -34,6 +34,7 @@ This Streamlit app leverages **LangChain**, **Google Gemini**, **FAISS**, and **
 ├── 📄 app.py                # Main Streamlit app file
 ├── 📁 pdf files/            # Directory containing PDFs for RAG
 ├── 📄 .env                  # Store your environment variables (like LOGO_PATH)
+|-- 📄 app_with_eval.py      # Main app with evaluation feature
 ```
 
 ---
